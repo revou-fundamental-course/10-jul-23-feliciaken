@@ -1,11 +1,15 @@
+/*Introduction to Kalkulator BMI (Top banner)*/
 #BMI {
     width: 1700px;
     height: 300px;
     opacity: 20%;
     position: fixed;
-    top: 23%;
+    top: 21%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border: 0;
+    outline: none;
+    text-decoration: none;
 }
 #Kalkulator-BMI {
     position: absolute;
@@ -26,4 +30,8 @@
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 
+}
+.div-2 {
+   position:relative;
+    top: 235px;
 }

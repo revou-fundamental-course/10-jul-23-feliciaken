@@ -6,11 +6,42 @@
 <script src="index.js"></script>
     </head>
     <body>
-        <div>
-          <img class=div-1 id="BMI" src="c:\Users\USER\Desktop\mv\BMI.jpg" alt="body mass index">
-          <h1 class="div-1" id=Kalkulator-BMI>Kalkulator BMI</h1>
-          <h1 class="div-1" id=penjelasan-Kalkulator-BMI>Berat Badan ideal adalah impian semua orang. Tidak hanya memiliki bentuk tubuh yang menunjang penampilan, berat badan ideal juga menandakan kondisi tubuh yang sehat. Bagaimana denganmu? Yuk, hitung sekarang di Kalkulator BMI.</h1>
-    </div>
-
+        <div class="div-1"></div>
+            <!--Introduction to Kalkulator BMI (Top banner)-->
+          <img id="BMI" src="c:\Users\USER\Desktop\mv\BMI.jpg" alt="body mass index">
+          <h1 id=Kalkulator-BMI>Kalkulator BMI</h1>
+          <h1 id=penjelasan-Kalkulator-BMI>Berat Badan ideal adalah impian semua orang. Tidak hanya memiliki bentuk tubuh yang menunjang penampilan, berat badan ideal juga menandakan kondisi tubuh yang sehat. Bagaimana denganmu? Yuk, hitung sekarang di Kalkulator BMI.</h1>
+        </div>
+        <div class="div-2">
+            <fieldset>
+                <legend>Data diri</legend>
+                <p>Jenis Kelamin</p>
+                <p id="pria button">
+                    <input type="radio" name="button pria"> 
+                    <label for="button pria">Pria</label>
+                </p>
+                <p id="wanita button">
+                    <input type="radio" name="button wanita">
+                    <label for="button Wanita">Wanita</label>
+                </p>
+                 <p>
+                    <p>Berat Badan (kg)</p>
+                <input type="text" id="berat badan." name="berat badan">
+            </p>
+            <p>
+                <p">Usia (Tahun)</p>
+                <input type="text"  id="usia." name="Usia">
+            </p>
+            <p>
+                <p>Tinggi Badan (Cm)</p>
+                <input type="text" id="tinggi badan." name="tinggi badan">
+            </p>
+            <p>
+                <button type="button">
+                    Hitung BMI
+                </button>
+            </p>
+            </fieldset>
+        </div>
     </body>
 </html>
