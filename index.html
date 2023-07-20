@@ -26,21 +26,24 @@
                 </p>
                  <p>
                     <p>Berat Badan (kg)</p>
-                <input type="text" id="berat badan." name="berat badan">
+                <input type="text" id="weight" name="berat badan" step="0.01">
             </p>
             <p>
                 <p">Usia (Tahun)</p>
-                <input type="text"  id="usia." name="Usia">
+                <input type="text"  id="age" name="Usia">
             </p>
             <p>
                 <p>Tinggi Badan (Cm)</p>
-                <input type="text" id="tinggi badan." name="tinggi badan">
+                <input type="text" id="height" name="tinggi badan" step="0.01">
             </p>
             <p>
-                <button type="button">
-                    Hitung BMI
+                    <button onclick="calculateBMI()">Calculate BMI</button>
+                    <p id="result"></p>
                 </button>
             </p>
+            <div>
+                <p id="result.">Result:</p>
+            </div>
             </fieldset>
         </div>
     </body>
